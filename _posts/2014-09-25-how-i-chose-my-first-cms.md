@@ -2,10 +2,9 @@
 layout: post
 title: How I Chose a CMS for my First Blog
 ---
-
-
+{% capture readtime %}{{ post.content | number_of_words | plus:91 | divided_by:180.0 | append:'.' | split:'.' | first }}{% endcapture %}
+{% if readtime == '0' %} &lt; 1{% else %}{{ readtime }}{% endif %} min. read
 -----
-{{ page.content | reading_time }}
 
 ###The decision:
 
