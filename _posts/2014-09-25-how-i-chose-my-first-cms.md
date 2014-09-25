@@ -7,7 +7,7 @@ title: How I Chose a CMS for my First Blog
 {% endcapture %}
 {% if page.content != truncated_content %}
   {{ page.content | number_of_words | append: '.0' | divided_by:180 | append: 'min' }}
-{% endif %}
+{% endif %} 
 -----
 
 ###The decision:
