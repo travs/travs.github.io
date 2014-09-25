@@ -8,14 +8,14 @@ relative_permalinks: true
 
 # Setup
 title:            Travis Jacobs
-tagline:          Now I have a blog.
+tagline:          It's Now.
 url:
 paginate:         1
 baseurl:          /
 author:
   name:           Travis Jacobs
   url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  email:          trav221@gmail.com
 
 # Custom vars
 version:          1.0.0

@@ -20,8 +20,11 @@ After some light googling, I decided not to go with WordPress, if only to try so
 * [Jekyll](http://jekyllrb.com/) - Famously lightweight and customizable. GitHub friendly.
 
 * [Octopress](http://octopress.org/) - Recommended by that blog post. Uses Jekyll under the hood.
+
 * [Anchor](http://anchorcms.com/) - Looks  simple. Claims to be lightweight and easy to install.
+
 * [Wardrobe](http://wardrobecms.com/) - Also seems simple and prettily-designed.
+
 * [Dropplets](http://dropplets.com/) - Again, looks very simple to use. Supports the lovely [Markdown](http://daringfireball.net/projects/markdown/) format, like the above options.
 
 I was looking for something **simple to use** for a first-time blogger, but also very **customizable**. Oh, I also wanted something **free** which would mean it was probably **open source**.
