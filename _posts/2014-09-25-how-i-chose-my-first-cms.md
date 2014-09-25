@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I Chose a CMS to Start my First Blog
+title: How I Chose a CMS for my First Blog
 ---
 
 
