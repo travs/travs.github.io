@@ -16,6 +16,7 @@ Now it was time to choose a platform to start blogging under.
 
 ###The options:
 After some light googling, I decided not to go with WordPress, if only to try something *slightly* outside the norm. Since this is my first blog I imagine my choice will not be final, and I plan to try some other CMS options in the future. This being said, I narrowed my scope to include:
+
 * [Jekyll](http://jekyllrb.com/) - Famously lightweight and customizable. GitHub friendly.
 * [Octopress](http://octopress.org/) - Recommended by that blog post. Uses Jekyll under the hood.
 * [Anchor](http://anchorcms.com/) - Looks  simple. Claims to be lightweight and easy to install.
@@ -28,11 +29,13 @@ Before I get into the reasoning, note that I am not giving an analytical review 
 
 ####Not Octopress
 I googled around and [dug up](http://joelmccracken.github.io/entries/moving-back-from-octopress-to-jekyll/) [some](http://www.kevindangoor.com/2012/03/wordpress-to-octopress-and-back/) [posts](http://joelmccracken.github.io/entries/moving-back-from-octopress-to-jekyll/) that made me want to avoid Octopress, at least for my first blog. Why?
+
 * The alleged abandonment of the project.
 * Looks like it has some features that I will (might?) not need.
 
 ####Dropplets?
 I love the look of their homepage and example website, as well as the easy-as-pie setup. Why didn't I go with Dropplets then?
+
 * **"Theme Marketplace"**.
 I understand that the people who make these platforms also need to make a living, and I have nothing against paying for something I think has value, but since this is my first blog, I wanted to go completely free with the themes.
 
@@ -45,6 +48,7 @@ The latest blog post in the Anchor dev was just a few months ago, while the Ward
 
 ####What about Jekyll?
 I have seen blogs that use Jekyll, and I like the idea of being able to easily (and freely) deploy to [GitHub Pages](https://pages.github.com/). Notes:
+
 * It looks a little more involved to set up, but I can *understand how it works*.
 * gh-pages is great, but I already have access to server space, so that's not a factor in my decision.
 * It has an [active community](https://github.com/jekyll/jekyll), which is bound to be a resource when adding features/customizing. Also, if I were to contribute some code, more people would benefit from it than a more stale project.
