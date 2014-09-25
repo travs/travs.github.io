@@ -9,15 +9,15 @@ relative_permalinks: true
 # Setup
 title:            Poole
 tagline:          The Jekyll Butler
-url:              http://getpoole.com
+url:              http://travisjacobs.ca
 paginate:         1
 baseurl:          /
 author:
-  name:           Mark Otto
+  name:           Travis Jacobs
   url:            https://twitter.com/mdo
   email:          markdotto@gmail.com
 
 # Custom vars
 version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
+github:           https://github.com/travs
+  repo:           https://github.com/travs/travs.github.io
