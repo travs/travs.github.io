@@ -18,6 +18,7 @@ Now it was time to choose a platform to start blogging under.
 After some light googling, I decided not to go with WordPress, if only to try something *slightly* outside the norm. Since this is my first blog I imagine my choice will not be final, and I plan to try some other CMS options in the future. This being said, I narrowed my scope to include:
 
 * [Jekyll](http://jekyllrb.com/) - Famously lightweight and customizable. GitHub friendly.
+
 * [Octopress](http://octopress.org/) - Recommended by that blog post. Uses Jekyll under the hood.
 * [Anchor](http://anchorcms.com/) - Looks  simple. Claims to be lightweight and easy to install.
 * [Wardrobe](http://wardrobecms.com/) - Also seems simple and prettily-designed.
