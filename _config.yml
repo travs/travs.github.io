@@ -7,9 +7,9 @@ permalink:        pretty
 relative_permalinks: true
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://travisjacobs.ca
+title:            Travis Jacobs
+tagline:          Now I have a blog.
+url:
 paginate:         1
 baseurl:          /
 author:
@@ -20,4 +20,3 @@ author:
 # Custom vars
 version:          1.0.0
 github:           https://github.com/travs
-  repo:           
