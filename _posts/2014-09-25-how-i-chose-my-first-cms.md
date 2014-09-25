@@ -3,9 +3,10 @@ layout: post
 title: How I Chose a CMS for my First Blog
 ---
 
-{{ page.content | reading_time }}
 
 -----
+{{ page.content | reading_time }}
+
 ###The decision:
 
 Like many other aspiring developers, I took the leap and decided to start a personal blog. I want some way to document the knowledge I gain in programming, but also have it accessible to others who might learn from my mistakes.
