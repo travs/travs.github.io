@@ -3,7 +3,7 @@ layout: post
 title: How I Chose a CMS for my First Blog
 ---
 
-
+Read this in about {{ page.content | reading_time }}
 
 -----
 ###The decision:
