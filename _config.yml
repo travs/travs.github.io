@@ -22,4 +22,4 @@ version:          1.0.0
 github:           https://github.com/travs
 
 #Automatically require these gems
-gems:             [reading_time]
+gems:             []
