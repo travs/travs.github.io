@@ -26,7 +26,7 @@ For now I have been converting my saved .md files to .pdf, but the final renderi
 
 ###The solution
 
-I have decided to build an Atom package "md-pdf" to convert raw markdown documents to GitHub-styled markdown, exported in the form of a pdf.
+I have decided to build an Atom package "markdown-pdf" to convert raw markdown documents to GitHub-styled markdown, exported in the form of a pdf.
 
 Since I am new to JavaScript, this will be an opportunity to hone my JS coding skills and create something that [fills a need](https://github.com/atom/markdown-preview/issues/122), and is a modest introduction to the world of software development in general.
 
