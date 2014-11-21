@@ -8,13 +8,13 @@ relative_permalinks: true
 
 # Setup
 title:            Travis Jacobs
-tagline:          It's Now.
+tagline:          git push origin master
 url:
 paginate:         1
 baseurl:          /
 author:
   name:           Travis Jacobs
-  url:            https://twitter.com/mdo
+  url:            https://github.com/travs
   email:          trav221@gmail.com
 
 # Custom vars
@@ -22,4 +22,3 @@ version:          1.0.0
 github:           https://github.com/travs
 
 #Automatically require these gems
-

@@ -6,7 +6,7 @@ date: "2014-11-21 12:47"
 
 ###The problem
 
-In making [my first Atom package](/2014-11-20-make-atom-package/) I kind of had a crash course in package management. There were npm modules I had to depend on, sure, and this was [outlined in github's tutorial](https://atom.io/docs/v0.150.0/creating-a-package#packagejson); you just stick the modules and versions you want in the `dependencies` object in `package.json`.
+In making [my first Atom package](/2014/11/20/make-atom-package/) I kind of had a crash course in package management. There were npm modules I had to depend on, sure, and this was [outlined in github's tutorial](https://atom.io/docs/v0.150.0/creating-a-package#packagejson); you just stick the modules and versions you want in the `dependencies` object in `package.json`.
 
 There was no way to include dependencies on *other Atom packages*, however, and the original implementation of my pdf converter required the [markdown-preview package](https://github.com/atom/markdown-preview/) to get  HTML (though this dependency was later removed).
 

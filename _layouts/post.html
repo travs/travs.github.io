@@ -5,18 +5,7 @@ layout: default
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-    <div class="readtime">
-      <i class="fa fa-clock-o"></i>
-      {% capture read_time %}
-        {{ page.content | number_of_words | divided_by: 180 }}
-      {% endcapture %}
-      {% if read_time != '0' %}
-        {{ read_time }}
-      {% else %}
-        1
-      {% endif %} min read
-    </div>
-    {{ content }}
+  {{ content }}
 </div>
 
 <div class="related">
@@ -25,7 +14,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
       <li>
         <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
+          <a href="{{ post.url }}">
             {{ post.title }}
             <small>{{ post.date | date_to_string }}</small>
           </a>
