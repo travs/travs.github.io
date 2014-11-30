@@ -15,10 +15,10 @@ author:
   name:           'Travis Jacobs'
   url:            http://travs.github.io/
 
-paginate:         5
+paginate:         1
 
 # Custom vars
 version:          2.0.0
 
 github:
-  repo:           https://github.com/travs/travs.github.io
+  repo:           https://github.com/travs/
