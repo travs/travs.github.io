@@ -1,24 +1,5 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
-
-# Permalinks
-permalink:        pretty
-
-# Setup
-title:            Travis Jacobs
-tagline:          'Blog edition'
-description:      ''
-url:              http://travs.github.io/
-
-author:
-  name:           'Travis Jacobs'
-  url:            http://travs.github.io/
-
-paginate:         1
-
-# Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/travs/
+# General Jekyll Config
+highlighter: pygments
+url: http://travs.github.io/
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]

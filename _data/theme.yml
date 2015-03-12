@@ -1,0 +1,31 @@
+# Theme customization - please change from the defaults!
+
+# Color for top bar, links, etc
+# Palleton UID (color scheme): 1120u0kv7BAjiIOoADZBmshE2m5
+highlight_color: '#E19E00'
+
+# Profile links on the left sidebar, leave blank to ignore
+social:
+  github: travs
+  #bitbucket:
+  #hacker_news:
+  #stackexchange:
+  #stackoverflow:
+  #twitter:
+  #facebook:
+  #tumblr:
+  linkedin: travjacobs
+  #gplus:
+  gravatar: c9a16caf6cde2ed73c383c6be548e96f
+  #atomfeed:
+
+# "Hi, I'm _______"
+name: Travis Jacobs
+email:
+tagline: ""
+
+# Google Analytics key, leave blank to ignore
+google_analytics_key:
+
+# Toggle "Postings are my own" disclaimer in footer
+show_disclaimer: false
