@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="//travs.github.io/TReND-links/javascripts/bootstrap-treeview/dist/bootstrap-treeview.min.js"></script>
+
+<style media="screen">
+  .glyphicon-spin {
+    -webkit-animation: spin 1000ms infinite linear;
+    animation: spin 1000ms infinite linear;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+  }
+  @keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+  }
+</style>
+
+<div id="tree"></div>
+<div class="row-fluid">
+  <div class="col-xs-12 text-center">
+    <span style="font-size:9em;" class="glyphicon glyphicon-refresh glyphicon-spin" id="spinner"></span>
+  </div>
+</div>
+
+<script>
+  var URL = 'https://cdn.rawgit.com/travs/PLOS-Subject-Area-Explorer/master/thesaurus_latest.json';
+  $.getJSON(URL, function(data){
+    $('#tree').treeview({data: data, levels: 1, nodeIcon: 'glyphicon'});
+    $('#spinner').remove();
+  })
+</script>
