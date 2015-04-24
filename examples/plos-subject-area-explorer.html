@@ -41,7 +41,7 @@ layout: default
 </div>
 
 <script>
-  var URL = 'https://cdn.rawgit.com/travs/PLOS-Subject-Area-Explorer/master/thesaurus_latest.json';
+  var URL = 'https://cdn.rawgit.com/travs/PLOS-Subject-Area-Explorer/1e2b48542a0dfdf899d7c18d44e45463ab43eff8/plosthes.2014-5.min.json';
   $.getJSON(URL, function(data){
     $('#tree').treeview({data: data, levels: 1, nodeIcon: 'glyphicon'});
     $('#spinner').remove();
