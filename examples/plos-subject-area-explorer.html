@@ -44,9 +44,11 @@ layout: default
 </div>
 
 <script>
-  var URL = 'https://cdn.rawgit.com/travs/PLOS-Subject-Area-Explorer/1e2b48542a0dfdf899d7c18d44e45463ab43eff8/plosthes.2014-5.min.json';
-  $.getJSON(URL, function(data){
-    $('#tree').treeview({data: data, levels: 1, nodeIcon: 'glyphicon'});
-    $('#spinner').remove();
-  })
+  var sha = jQuery.ajax({url: 'https://api.github.com/repos/travs/PLOS-Subject-Area-Explorer/commits', success: function(data){
+    var sha = data[0].sha;
+    var URL = 'https://cdn.rawgit.com/travs/PLOS-Subject-Area-Explorer/' + sha + '/thesaurus_latest.json'
+    $.getJSON(URL, function(data){
+      $('#tree').treeview({data: data, levels: 1, nodeIcon: 'glyphicon'});
+      $('#spinner').remove();
+    })}})
 </script>
