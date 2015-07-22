@@ -11,7 +11,7 @@ It was time to deploy to the cloud, so I could test my changes somewhere other t
 After some difficulty deploying to PythonAnywhere, and looking at the debug logs, I realized that my configs must be off.
 I keep them in an external file called `configs.py`, which looks something like this:
 
-```py
+```
 class Config(object):
     DEBUG = True
     TESTING = False
@@ -26,7 +26,7 @@ There was nothing in the debug or server logs about this, so it took a few tries
 
 So just a quick tip from a lesson learned the (kinda) hard way. For your configs, use something more like this, than the above:
 
-```py
+```
 class Config(object):
     DEBUG = False
     TESTING = False
