@@ -4,7 +4,7 @@ title: "Adapting a Data Access Layer for Ion Channel Modeling"
 date: "2015-03-17 17:27"
 ---
 
-###The project
+### The project
 
 So I've been working with [OpenWorm](http://www.openworm.org/) off and on for a while now, mostly with the subproject that deals with data storage and retrieval (read "access"), [PyOpenWorm](https://github.com/openworm/PyOpenWorm/#pyopenworm).
 
@@ -14,7 +14,7 @@ I mainly did some testing and small changes to the scripts that were present alr
 
 Now it's time for me to write modules myself!
 
-###The new subproject
+### The new subproject
 
 [Vahid](https://github.com/VahidGh) and I have been working together for a bit now, on his new project [ChannelWorm](https://github.com/VahidGh/ChannelWorm#channelworm), which is to be a data, model and simulation hub for ion channels in OpenWorm's in-silico cells.
 

@@ -8,7 +8,7 @@ I have recently started volunteering with [TReND](http://trendinafrica.org/), an
 
 On top of this type of economic aid, TReND also seeks to help foster the burgeoning scientific *community* in Africa. Long distances and high rural populations in many African countries means that connections with like minds are difficult to initiate. [André](https://www.linkedin.com/in/amaiachagas), [Tom](https://tombaden.wordpress.com/) and others at TReND are working to address that problem.
 
-###A solution
+### A solution
 
 Enter *TReND-links*, an offshoot of TReND that seeks to provide a platform for scientists across the African continent (or indeed, worldwide) to share their research interests and contact information with each other.
 
@@ -18,7 +18,7 @@ After speaking with members of the TReND community, it emerged that there was a 
 
 I had a look at the previous site, noticed a few areas that could be improved, and whipped up a [prototype with Github Pages](http://travs.github.io/TReND-links/) that was well-received by the TReND community.
 
-###How it works
+### How it works
 
 TReND-links is, at its face, a user-friendly, searchable database of scientists.
 
@@ -30,7 +30,7 @@ The signup process is just as easy. A scientist need only fill out a single form
 
 (For a detailed look at how TReND-links works, check out [this article](2015/04/20/implement-contact-sharing-service)).
 
-###Future
+### Future
 
 With TReND-links available, geographically disparate scientists can initiate contact with one another, providing the buds of a relationship that have the potential to grow into scientific collaboration.
 

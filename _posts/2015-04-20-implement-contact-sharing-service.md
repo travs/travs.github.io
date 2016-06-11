@@ -7,7 +7,7 @@ date: 2015-04-20
 As described in [another post](2015/04/18/trend-links-platform/), I have built a contact-sharing platform for scientists, working with [TReND](http://trendinafrica.org), an organization helping researchers in Africa.
 Check out my other post and the TReND website for more information on what they do; this article is about [TReND-links](http://travs.github.io/TReND-links/)' implementation.
 
-##The Big Picture
+## The Big Picture
 
 The idea behind TReND links was to provide an easy-to-sign-up-for service where scientists could share their contact information and research interests with each other.
 
@@ -21,7 +21,7 @@ Now, to collect user data I opted for [Google Forms](http://www.google.com/forms
 
 With a few example posts in the Jekyll `_posts` directory, I was ready to show off the site to the world.
 
-##The Little Things
+## The Little Things
 
 I was excited! That is until I realized that whoever was maintaining the site (not me) would have to create a YAML-formatted markdown file in `_posts` manually with each new entry coming in from the form.
 
@@ -29,7 +29,7 @@ This may not be too much to handle, but it would be better to have an automated 
 
 Enter the awesomely-integrated [Google Apps Script](https://developers.google.com/apps-script/) (GAS).
 
-##Driving Automatic
+## Driving Automatic
 
 With GAS, I was able to pull all the user-entered data at each form submit, and then transform it into a YAML-formatted front matter block; the kind that Jekyll-db uses for its entries. Sweet.
 
@@ -43,7 +43,7 @@ Using a service called Zapier, I was able to watch for changes in the TReND-link
 
 Voila! The YAML data mentioned earlier was sent to Github's API as a base64-encoded string, and a new database entry (and user profile) is born!
 
-##In the Rearview
+## In the Rearview
 
 Of course I realize now that I could have just made the Http request directly from GAS, and circumvented using Zapier altogether.
 

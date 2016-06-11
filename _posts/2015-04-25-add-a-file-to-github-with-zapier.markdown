@@ -4,7 +4,7 @@ title: "Add a File to Github with Zapier"
 date: "2015-04-25 15:01"
 ---
 
-##Background
+## Background
 
 Recently I have built an information-sharing platform called [TReND-links](http://travs.github.io/TReND-links).
 
@@ -12,7 +12,7 @@ It was designed to allow users (scientists) to insert contact information, allow
 
 Read about the design [here](/2015/04/20/implement-contact-sharing-service/).
 
-##Using Zapier
+## Using Zapier
 
 Part of the design was to automatically add files to Github, which I thought I could do with Zapier.
 
@@ -22,7 +22,7 @@ Unfortunately, there was no option under **"DO THIS"** to add a file to Github.
 
 Instead, I had to use Github's API and Zapier's "Webhook" output.
 
-##How To Do It
+## How To Do It
 
 All we have to do now is make an Http PUT request to Github's API.
 

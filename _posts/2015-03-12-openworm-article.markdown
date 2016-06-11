@@ -4,7 +4,7 @@ title: "Writing about OpenWorm for Openeuroscience"
 date: "2015-03-12 17:56"
 ---
 
-###Being open about being open
+### Being open about being open
 
 Recently [André Maia Chagas](https://www.linkedin.com/in/amaiachagas), creator of [Openeuroscience](http://openeuroscience.com/) (which I love by the way) gave me an opportunity to write a short piece about a project I have been collaborating on for some time now: [OpenWorm](http://www.openworm.org/).
 
