@@ -1,5 +1,8 @@
 # General Jekyll Config
-highlighter: pygments
 url: http://travs.github.io/
 lsi: false
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
