@@ -59,7 +59,7 @@ I have seen blogs that use Jekyll, and I like the idea of being able to easily (
 #### The verdict:
 I chose to go with **Jekyll** because of the hyper-active community, as well as the customization and simplicity it offers. If I need more features, I will add them in the future.
 
-I am eager to get started with writing, so I will clue up this post here. In all, my values (active community/customization) informed my decision, so examine your personal values - what you want from your bloggin platform - and then choose.
+I am eager to get started with writing, so I will clue up this post here. In all, my values (active community/customization) informed my decision, so examine your personal values - what you want from your blogging platform - and then choose.
 
 #### Caveats, cavdrinks
 I still have a lot to learn about blogging, but I like an active community, and if you're reading this then Jekyll is easy enough for a beginner to use and hasn't broken yet.

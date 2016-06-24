@@ -4,6 +4,7 @@ title: Learning JavaScript by Solving a Real Problem
 ---
 
 -----
+
 ### My programming background
 
 Through a few courses at university and some tinkering at home, I've learned the syntax and basics of programming in a few languages (Java, Python, MatLab/Octave, R).
